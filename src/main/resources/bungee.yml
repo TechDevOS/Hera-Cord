@@ -1,0 +1,4 @@
+name: HeraCord
+version: '${project.version}'
+main: fr.whitefox.heracord.Main
+description: BungeeCord plugin for Hera
