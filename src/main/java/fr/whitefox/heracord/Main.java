@@ -1,6 +1,7 @@
 package fr.whitefox.heracord;
 
 import fr.whitefox.heracord.commands.Lobby;
+import fr.whitefox.heracord.commands.bc;
 import fr.whitefox.heracord.commands.sc;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.ProxyServer;
@@ -18,6 +19,7 @@ public final class Main extends Plugin {
 
         ProxyServer.getInstance().getPluginManager().registerCommand(this, new Lobby(this));
         ProxyServer.getInstance().getPluginManager().registerCommand(this, new sc(this));
+        ProxyServer.getInstance().getPluginManager().registerCommand(this, new bc(this));
 
 
     }
